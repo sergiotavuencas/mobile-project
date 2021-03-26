@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cf31c302-46a3-43bc-a4c8-ed507b59a0b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my_app/lib/FirstRoute.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/MyColumn.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/MyDrawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/SecondRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/main.dart" afterDir="false" />
     </list>
@@ -10,10 +32,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qH38wnPQdCHCxc0IFI7axji5lb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,23 +88,38 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1616723008661">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1616767086513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616723008661" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1616723008661">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616767086513" />
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1616772080944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616723008661" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1616723008660">
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616772080944" />
+    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1616772080943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616723008660" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1616723008661">
+    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616772080943" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1616772080943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616723008661" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616772080943" />
+    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1616772080944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616772080944" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1616722688095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
