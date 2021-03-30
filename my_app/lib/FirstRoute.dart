@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/EventDetail.dart';
-import 'package:my_app/models/ExamEvent.dart';
+import 'package:my_app/ExamDetail.dart';
+import 'package:my_app/models/Exam.dart';
 
 import 'ExamTile.dart';
 
 class FirstRoute extends StatelessWidget {
-  final events = List<ExamEvent>.generate(20, (index) => ExamEvent(
-    10.0,
+  final exams = List<Exam>.generate(20, (index) => Exam(
+    "10.0",
     "AF - Avaliação Final",
     "Computação Gráfica II",
     "29/03/2021"
@@ -20,23 +20,23 @@ class FirstRoute extends StatelessWidget {
         title: Text('First Screen'),
       ),
       body: ListView.builder(
-        itemCount: events.length,
+        itemCount: exams.length,
         itemBuilder: (context, index){
           return GestureDetector(
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => EventDetail(event: events[index]))
+              Navigator.push(context, MaterialPageRoute(builder: (context) => ExamDetail(exam: exams[index]))
               );
-              child: ExamTile(
-                grade: events[index].grade,
-                exam: events[index].exam,
-                course: events[index].course,
-                date: events[index].date,
-              );
-            }
+            },
+            child: ExamTile(
+              grade: exams[index].grade,
+              exam: exams[index].exam,
+              course: exams[index].course,
+              date: exams[index].date,
+            ),
           );
-        },
-      ),
+        }
+      )
     );
+    }
   }
-}
 

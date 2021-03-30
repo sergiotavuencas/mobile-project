@@ -8,7 +8,7 @@ class ExamTile extends StatelessWidget {
     this.date,
   });
 
-  final double grade;
+  final String grade;
   final String exam;
   final String course;
   final String date;
@@ -31,9 +31,9 @@ class ExamTile extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        grade.toString(),
+                        grade,
                         style: TextStyle(
-                          fontSize: 50,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                         ),
