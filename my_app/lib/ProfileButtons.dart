@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:my_app/routes/DatesRoute.dart';
 
-import 'DatesRoute.dart';
 
 class ProfileButtons extends StatelessWidget {
   const ProfileButtons({
@@ -78,7 +78,7 @@ class ProfileButtons extends StatelessWidget {
                                   Container(
                                       alignment: Alignment.center,
                                       margin: const EdgeInsets.only( left: 35.0 , right: 35.0),
-                                      child: Text("Classes")
+                                      child: Text("Subjects")
                                   ),
                                   Align(
                                       alignment: Alignment.centerRight,
@@ -95,7 +95,7 @@ class ProfileButtons extends StatelessWidget {
                                 )
                             ),
                             onPressed: (){
-                              //Navigator.push(context, MaterialPageRoute(builder: (context) => ClassesRoute()));
+                              //Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectsTile()));
                             }
                         )
                     )

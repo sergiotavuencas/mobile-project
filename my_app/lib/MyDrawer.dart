@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/DatesRoute.dart';
-
-import 'SecondRoute.dart';
+import 'package:my_app/tiles/DatesTile.dart';
+import 'package:my_app/tiles/SubjectsTile.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({
@@ -14,20 +13,20 @@ class MyDrawer extends StatelessWidget {
       child: ListView(
         children: [
           ListTile(
-            title: Text("First screen"),
+            title: Text("Dates"),
             onTap: (){
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => DatesRoute()),
+                MaterialPageRoute(builder: (context) => DatesTile()),
               );
             },
           ),
           ListTile(
-            title: Text("Second screen"),
+            title: Text("Subjects"),
             onTap: (){
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SecondRoute()),
+                MaterialPageRoute(builder: (context) => SubjectsTile()),
               );
             },
           )

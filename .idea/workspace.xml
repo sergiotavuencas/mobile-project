@@ -20,21 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf31c302-46a3-43bc-a4c8-ed507b59a0b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_app/lib/DatesRoute.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/lib/ProfileButtons.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/lib/ProfileDetail.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/lib/ProfileTile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/lib/models/Profile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/details/DateDetail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/details/SubjectDetail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/models/Date.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/models/Subject.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/routes/DatesRoute.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/tiles/SubjectsTile.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/lib/ExamDetail.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/lib/ExamTile.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/lib/FirstRoute.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/DatesRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/tiles/DatesTile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/MyColumn.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/lib/MyDrawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/MyDrawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileButtons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/ProfileButtons.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileDetail.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileTile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/routes/ProfileRoute.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/SecondRoute.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/lib/models/Exam.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\mobile-project\my_app\lib\routes" />
+      <recent name="D:\Git\mobile-project\my_app\lib\tiles" />
+      <recent name="D:\Git\mobile-project\my_app\lib\details" />
+      <recent name="D:\Git\mobile-project\my_app\lib\templates" />
       <recent name="D:\Git\mobile-project\my_app\lib" />
     </key>
   </component>
@@ -125,26 +129,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616767086513" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1617751043652">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1618107528712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1616979954594" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617751043652" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1617751043652">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618107528712" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1618107528712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1616979954594" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617751043652" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1617751043652">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618107528712" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1618107528711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1616979954594" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617751043652" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1617751043652">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618107528711" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1618107528712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1616979954594" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617751043652" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618107528712" />
     <state x="263" y="107" key="IDE.errors.dialog" timestamp="1616971371357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

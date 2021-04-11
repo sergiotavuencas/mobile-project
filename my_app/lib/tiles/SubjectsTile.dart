@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class DatesRoute extends StatelessWidget {
+class SubjectsTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -8,7 +8,7 @@ class DatesRoute extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xff1A237E),
-        title: Text('Dates'),
+        title: Text('Subjects'),
       ),
       //body:
     );

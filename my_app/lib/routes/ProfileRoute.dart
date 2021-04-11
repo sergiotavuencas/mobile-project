@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/ProfileButtons.dart';
 
-class ProfileTile extends StatelessWidget {
-  const ProfileTile({
+class ProfileRoute extends StatelessWidget {
+  const ProfileRoute({
     this.firstName,
     this.lastName,
     this.college,
