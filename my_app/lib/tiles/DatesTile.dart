@@ -40,6 +40,7 @@ class DatesTile extends StatelessWidget {
                 )
             ),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -106,6 +107,7 @@ class DatesTile extends StatelessWidget {
                 )
             ),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

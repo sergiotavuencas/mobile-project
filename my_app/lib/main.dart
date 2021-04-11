@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       title: "My Flutter App",
       color: Color(0xff1A237E),
       home: Scaffold (
+        drawer: MyDrawer(),
         appBar: AppBar(
           centerTitle: true,
           backgroundColor: Color(0xff1A237E),

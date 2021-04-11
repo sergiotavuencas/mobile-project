@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/tiles/DatesTile.dart';
-import 'package:my_app/tiles/SubjectsTile.dart';
+import 'package:my_app/routes/DatesRoute.dart';
+import 'package:my_app/routes/SubjectRoute.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({
@@ -17,7 +17,7 @@ class MyDrawer extends StatelessWidget {
             onTap: (){
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => DatesTile()),
+                MaterialPageRoute(builder: (context) => DatesRoute()),
               );
             },
           ),
@@ -26,7 +26,7 @@ class MyDrawer extends StatelessWidget {
             onTap: (){
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SubjectsTile()),
+                MaterialPageRoute(builder: (context) => SubjectsRoute()),
               );
             },
           )

@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_app/routes/DatesRoute.dart';
+import 'package:my_app/routes/SubjectRoute.dart';
 
 
 class ProfileButtons extends StatelessWidget {
@@ -88,14 +88,14 @@ class ProfileButtons extends StatelessWidget {
                               ),
                             ),
                             style: ElevatedButton.styleFrom(
-                                primary: Color(0xff3949AB),
+                                primary: Color(0xff5C6BC0),
                                 textStyle: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold
                                 )
                             ),
                             onPressed: (){
-                              //Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectsTile()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectsRoute()));
                             }
                         )
                     )

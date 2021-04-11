@@ -24,6 +24,7 @@ class DateDetail extends StatelessWidget {
         ),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -116,6 +117,7 @@ class DateDetail extends StatelessWidget {
                       )
                   ),
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
