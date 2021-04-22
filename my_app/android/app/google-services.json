@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281894808260",
+    "project_id": "my-agenda-59a2f",
+    "storage_bucket": "my-agenda-59a2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281894808260:android:9af9177f22f84c60337791",
+        "android_client_info": {
+          "package_name": "com.facens.myAgenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281894808260-als1vr46bjo9vcalfrn37qe5l4i51eh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfLfbrIh9_hmPqjA9QGI4VtaHmSfbLazw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281894808260-als1vr46bjo9vcalfrn37qe5l4i51eh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
