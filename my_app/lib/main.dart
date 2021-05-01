@@ -1,41 +1,24 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/MyDrawer.dart';
-import 'package:my_app/routes/ProfileRoute.dart';
+import 'package:my_app/MyAgenda.dart';
+import 'package:my_app/routes/LoginRoute.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "My Flutter App",
-      color: Color(0xff1A237E),
-      home: Scaffold (
-        drawer: MyDrawer(),
-        appBar: AppBar(
-          centerTitle: true,
-          backgroundColor: Color(0xff1A237E),
-          title: Text(
-              "Profile",
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.white
-              ),
-            ),
-        ),
-        body: ProfileRoute(
-          firstName: "Sérgio",
-          lastName: "Tavuencas",
-          college: "Engenharia de Computação",
-        ),
-      ),
+      title: 'Firebase App',
+      initialRoute: '/',
+      routes: {
+        '/':(context)=>LoginRoute(),
+        '/app':(context)=>MyAgenda(),
+      },
     );
   }
 }
-
-/*
-<Widget>[
-Icon(FontAwesomeIcons.android, size: 50),
-*/

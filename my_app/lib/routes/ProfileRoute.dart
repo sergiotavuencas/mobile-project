@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/ProfileButtons.dart';
+import 'package:my_app/components/ProfileButtons.dart';
 
 class ProfileRoute extends StatelessWidget {
   const ProfileRoute({
