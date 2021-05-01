@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/MyDrawer.dart';
 import 'package:my_app/routes/ProfileRoute.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class MyAgenda extends StatelessWidget {
+  final FirebaseAuth auth = FirebaseAuth.instance;
+
   const MyAgenda({
     Key key,
   }) : super(key: key);
@@ -25,6 +28,13 @@ class MyAgenda extends StatelessWidget {
                 color: Colors.white
             ),
           ),
+          actions: [
+            IconButton(icon: Icon(Icons.exit_to_app), onPressed: (){
+              print('exit');
+              auth.signOut();
+              Navigator.of(context).pushNamed("/");
+            })
+          ],
         ),
         body: ProfileRoute(
           firstName: "Sérgio",
